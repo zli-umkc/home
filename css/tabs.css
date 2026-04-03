@@ -1,0 +1,58 @@
+
+.ui-tabs-selected {
+	background-color: #eee;
+	border-bottom: none;
+}
+
+.ui-tabs-unselect {
+}
+
+.ui-tabs-disabled {
+	display: none;
+}
+
+.ui-tabs-panel {
+	margin-top: 10px;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+.ui-tabs-nav {
+	list-style: none;
+	margin: 0 auto;
+	padding:0;
+	clear:both;
+}
+
+.ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+
+
+.ui-tabs-nav li {
+	display: inline;
+	float: left;
+	width: 104px;
+	margin: 5;
+	text-align: center;
+	border-left: solid white 1px;
+}
+
+.ui-tabs-nav a {
+	text-decoration: none;
+	white-space: nowrap; /* @ IE 6 */
+	outline: 0;
+	display: block;
+	padding: 5px;
+}
+.ui-tabs-nav span {
+	color: #222;
+}
+
+.ui-tabs-nav ul {
+	text-align: center;
+}

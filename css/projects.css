@@ -1,0 +1,60 @@
+/* Projects */
+.project {
+	margin: 10px;
+	padding: 0;
+	overflow: auto;
+	width: 100%;
+	line-height:1.5em;
+}
+.project .left {
+	float: left;
+	margin-top:20px;
+}
+.project .left .a {
+	line-height: 0;
+}
+.project .right {
+	float: right;
+	width: 480px;	
+	margin-top:20px;
+}
+.project .title {
+	margin: 10px;
+	margin-top: 0;
+	line-height: 1.5em;
+}
+.project .title a {
+    text-decoration: none;
+	font-size: 15px;
+	font-style:italic;
+	color: #125AA7;
+}
+.project .title a:hover {
+	color: #111;
+}
+.project .image {
+	margin-top:5px;
+}
+.project .description {
+	margin: 10px;
+	text-align:justify;
+}
+.project .related-paper {
+	margin: 10px;
+	text-align:justify;
+}
+.project .related-resource {
+	margin: 10px;
+	text-align:justify;
+}
+
+/* On project pages */
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered_text {
+	text-align: center;
+}
